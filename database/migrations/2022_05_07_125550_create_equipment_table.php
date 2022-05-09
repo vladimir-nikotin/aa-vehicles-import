@@ -4,8 +4,8 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-use App\Models\Vehicle;
-use App\Models\EquipmentElement;
+use VladimirNikotin\AaVehicleImport\Models\Vehicle;
+use VladimirNikotin\AaVehicleImport\Models\EquipmentElement;
 
 class CreateEquipmentTable extends Migration
 {

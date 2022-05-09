@@ -4,16 +4,16 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-use App\Models\Dealer;
-use App\Models\Category;
-use App\Models\Subcategory;
-use App\Models\Brand;
-use App\Models\Model;
-use App\Models\Generation;
-use App\Models\BodyConfiguration;
-use App\Models\Modification;
-use App\Models\Complectation;
-use App\Models\Country;
+use VladimirNikotin\AaVehicleImport\Models\Dealer;
+use VladimirNikotin\AaVehicleImport\Models\Category;
+use VladimirNikotin\AaVehicleImport\Models\Subcategory;
+use VladimirNikotin\AaVehicleImport\Models\Brand;
+use VladimirNikotin\AaVehicleImport\Models\Model;
+use VladimirNikotin\AaVehicleImport\Models\Generation;
+use VladimirNikotin\AaVehicleImport\Models\BodyConfiguration;
+use VladimirNikotin\AaVehicleImport\Models\Modification;
+use VladimirNikotin\AaVehicleImport\Models\Complectation;
+use VladimirNikotin\AaVehicleImport\Models\Country;
 
 class CreateVehiclesTable extends Migration
 {

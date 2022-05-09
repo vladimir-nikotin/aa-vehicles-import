@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-use App\Models\Category;
+use VladimirNikotin\AaVehicleImport\Models\Category;
 
 class CreateSubcategoriesTable extends Migration
 {
