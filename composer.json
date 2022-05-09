@@ -1,0 +1,24 @@
+{
+    "name": "vladimir-nikotin/aa-vehicle-import",
+    "description": "job interview test task",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "VladimirNikotin\\AaVehicleImport\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.4"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "VladimirNikotin\\AaVehicleImport\\VehicleImportServiceProvider"
+            ]
+        }
+    }
+}
