@@ -1,7 +1,7 @@
 {
     "name": "vladimir-nikotin/aa-vehicle-import",
     "description": "job interview test task",
-    "type": "project",
+    "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
